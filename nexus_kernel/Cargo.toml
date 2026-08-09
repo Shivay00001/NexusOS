@@ -1,0 +1,18 @@
+[package]
+name = "nexus_kernel"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+spin = "0.9.8"
+lazy_static = { version = "1.4.0", features = ["spin_no_std"] }
+bootloader = { version = "0.9.35", features = ["map_physical_memory"] }
+x86_64 = "0.15.2"
+pic8259 = "0.10.1"
+pc-keyboard = "0.7.0"
+linked_list_allocator = "0.10.5"
+crossbeam-queue = { version = "0.3.11", default-features = false, features = ["alloc"] }
+conquer-once = { version = "0.2.0", default-features = false }
+futures-util = { version = "0.3.28", default-features = false, features = ["alloc"] }
+
+
