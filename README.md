@@ -49,3 +49,8 @@ The kernel targets `x86_64-nexus_os`. Launch via `run.bat` or QEMU. The desktop 
 ## Status
 
 Early-stage research. Not intended for production use.
+
+
+## Prerequisites
+- Required environment and dependencies
+
